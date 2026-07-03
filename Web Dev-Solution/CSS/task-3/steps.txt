@@ -1,0 +1,19 @@
+1. You should have one unordered list with the class todo-list.
+2. You should have four list items inside the unordered list.
+3. The li inside the ul with the class todo-list should contain an input element with the type of checkbox.
+4. The li inside the ul with the class todo-list should contain a label element.
+5. All input elements should have an id.
+6. All label elements should have a for attribute.
+7. All label elements should have some text.
+8. The id and for attributes of the input and label elements pairs, should have corresponding values.
+9. After the label elements, there should be an unordered list with the class sub-item.
+10. The li inside the ul with the class sub-item should have an anchor element with the class sub-item-link.
+11. All anchor elements should have a valid href attribute.
+12. All anchor elements should have text.
+13. Each a element should have a target attribute with the value of _blank.
+14. Your a elements should not have any text decorations.
+15. Unvisited links should have a text color set to a color of your choice.
+16. The links should change color when hovered over.
+17. The links should change color when they are being clicked.
+18. The links should have an outline when focused.
+19. The links should change color once visited.

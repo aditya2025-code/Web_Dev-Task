@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(242, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-post-card {
+    background-color: white;
+    border-radius: 20px;
+    width: 370px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.post-img {
+    width: 370px;
+    background-size: contain;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0px;
+    border-bottom: 5px solid rgb(92, 92, 92);
+}
+
+.post-content {
+    padding: 2px;
+}
+
+.post-title {
+    font-size: 25px;
+    color: rgb(72, 69, 69);
+    margin-bottom: 10px;
+
+}
+
+.post-excerpt {
+    font-size: 18px;
+    color: rgb(99, 97, 97);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: rgb(59, 55, 55);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 2px;
+    margin-bottom: 15px;
+
+}
+
+.read-more:hover {
+    background-color: rgb(96, 92, 92);
+}

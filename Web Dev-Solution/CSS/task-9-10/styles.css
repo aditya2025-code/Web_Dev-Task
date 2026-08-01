@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    padding: 15px 0 0 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#marque-wrapper-1,#marque-wrapper-2 {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    overflow: hidden;
+    cursor: help;
+}
+
+.marque-track-1, .marque-track-2 {
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    animation: marque-animation-1 17s linear infinite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.marque-track-2 {
+    animation: marque-animation-1 17s linear infinite reverse;
+}
+
+.marque-track-1 img,.marque-track-2 img {
+    height: 97%;
+    width: 40%;
+    object-fit: cover;
+}
+
+#marque-wrapper-1:hover .marque-track-1,#marque-wrapper-2:hover .marque-track-2 {
+    animation-play-state: paused;
+}
+
+@keyframes marque-animation-1 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
